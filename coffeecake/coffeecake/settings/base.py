@@ -250,11 +250,11 @@ PIPELINE_COMPILERS = (
 )
 
 PIPELINE_CSS = {
-    'coffecake': {
+    'coffeecake': {
         'source_filenames': (
-            'css/coffecake.less',
+            'css/coffeecake.less',
         ),
-        'output_filename': 'css/coffecake.css',
+        'output_filename': 'css/coffeecake.css',
         'extra_context': {
             'media': 'screen,projection',
         },
@@ -268,11 +268,11 @@ PIPELINE_JS = {
         ),
         'output_filename': 'js/vendor.js',
     },
-    'coffecake': {
+    'coffeecake': {
         'source_filenames': (
             'js/*.coffee',
         ),
-        'output_filename': 'js/coffecake.js'
+        'output_filename': 'js/coffeecake.js'
     }
 }
 

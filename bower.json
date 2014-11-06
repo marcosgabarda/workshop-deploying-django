@@ -1,5 +1,5 @@
 {
-  "name": "project_name",
+  "name": "coffeecake",
   "version": "0.0.0",
   "homepage": "https://github.com/marcosgabarda/workshop-deploying-django",
   "authors": [
@@ -10,7 +10,7 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "btp/static/vendor",
+    "coffeecake/static/vendor",
     "test",
     "tests"
   ],
