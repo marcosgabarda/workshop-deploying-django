@@ -5,8 +5,6 @@ from os import environ
 
 from .base import *
 
-DEBUG = True
-
 # Normally you should not import ANYTHING from Django directly
 # into your settings, but ImproperlyConfigured is an exception.
 from django.core.exceptions import ImproperlyConfigured
