@@ -276,8 +276,8 @@ PIPELINE_JS = {
     }
 }
 
-PIPELINE_LESS_ARGUMENTS = None
-PIPELINE_JS_COMPRESSOR = None
+PIPELINE_LESS_ARGUMENTS = '-x --yui-compress'
+PIPELINE_JS_COMPRESSOR = 'pipeline.compressors.yuglify.YuglifyCompressor'
 PIPELINE_YUGLIFY_JS_ARGUMENTS = '--terminal'
 
 STATICFILES_STORAGE = 'pipeline.storage.PipelineStorage'
